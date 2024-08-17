@@ -36,7 +36,6 @@ body * {
     align-items: center;
     justify-content: center;
 
-
 }
 
 .top #text-initial {
@@ -448,11 +447,16 @@ body * {
 }
 
 @media (max-width: 700px) {
-    .text-03 #title-05 {
+    .top #text-initial {
+        width: 450px;
+        gap: 10.5px;
+    
+    }
+    /* .text-03 #title-05 {
         width: 362px;
     }
 
     .text-01 #title-02 {
         width: 362px;
-    }
+    } */
 }
