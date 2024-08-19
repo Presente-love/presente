@@ -173,6 +173,8 @@ body * {
     align-items: center;
 
     margin: 250px auto 0;
+
+    border: 1px solid white;
 }
 
 .center-02 .image-01 #bouquet {
@@ -193,6 +195,8 @@ body * {
     font-size: 40px;
     text-align: center;
     margin: 100px auto 0;
+
+    border: 1px solid white;
 }
 
 .center-02 .image-02 {
@@ -201,6 +205,8 @@ body * {
     align-items: center;
 
     margin-top: 100px;
+
+    border: 1px solid white;
 }
 
 .center-02 .image-02 #bouquet {
@@ -434,12 +440,15 @@ body * {
 }
 
 @media (max-width: 768px) {
+
+    /* TOP */
     .top #text-initial {
         width: 450px;
         gap: 10.5px;
 
     }
 
+    /* ROLAR A PÁGINA */
     .scroll-page {
         flex-direction: column;
         align-items: center;
@@ -449,35 +458,39 @@ body * {
     }
 
     .center-01 .img-01 #bouquet {
-        width: 200px;
+        margin: auto;
+        /* width: 200px; */
     }
 
     .center-01 .img-01 #hearts {
-        width: 200px;
-    }
-    
-    .center-01 .img-02 #bouquet {
-        width: 200px;
-    }
-    
-    .center-01 .img-02 #hearts {
-        width: 200px;
+        display: none;
     }
 
-    .center-02 .image-01 #bouquet {
-        width: 200px;
+    .center-01 .img-02 #bouquet {
+        display: none;
     }
-    
+
+    .center-01 .img-02 #hearts {
+        margin: auto;
+        /* width: 200px; */
+    }
+
+
+
+    .center-02 .image-01 #bouquet {
+        display: none;
+    }
+
     .center-02 .image-01 #hearts {
-        width: 200px;
+        margin: auto;
     }
 
     .center-02 .image-02 #bouquet {
-        width: 200px;
+        margin: auto;
     }
-    
+
     .center-02 .image-02 #hearts {
-        width: 200px;
+        display: none;
     }
 
     .photo-01 #our-photo {
@@ -502,5 +515,5 @@ body * {
         width: 400px;
     }
 
-    
+
 }
