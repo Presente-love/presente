@@ -173,8 +173,6 @@ body * {
     align-items: center;
 
     margin: 250px auto 0;
-
-    border: 1px solid white;
 }
 
 .center-02 .image-01 #bouquet {
@@ -195,8 +193,6 @@ body * {
     font-size: 40px;
     text-align: center;
     margin: 100px auto 0;
-
-    border: 1px solid white;
 }
 
 .center-02 .image-02 {
@@ -205,8 +201,6 @@ body * {
     align-items: center;
 
     margin-top: 100px;
-
-    border: 1px solid white;
 }
 
 .center-02 .image-02 #bouquet {
@@ -340,14 +334,6 @@ body * {
     width: 325px;
 }
 
-.video-text #text-video {
-    width: 298px;
-    text-align: center;
-    font-size: 15px;
-
-    margin-top: 14px;
-}
-
 .video-text #hearts-video {
     width: 280px;
     position: absolute;
@@ -401,6 +387,28 @@ body * {
     margin-top: 30px;
 }
 
+/* FOTO 02 (1 ANO DE NAMORO) */
+.photo-02 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    margin-top: 200px;
+}
+
+.photo-02 img {
+    width: 480px;
+}
+
+.photo-02 p {
+    width: 480px;
+    font-weight: 600;
+    font-size: 26px;
+    text-align: center;
+}
+
+/* MAIN TEXT 01 */
 .main-text-01 {
     display: flex;
     flex-direction: column;
@@ -408,8 +416,6 @@ body * {
     align-items: center;
 
     margin-top: 200px;
-    margin-bottom: 50px;
-
 }
 
 .main-text-01 #title-main-text {
@@ -439,6 +445,24 @@ body * {
     border-radius: 30px;
 }
 
+
+/* ULTIMO TEXTO */
+.finish{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 200px;
+    margin-bottom: 80px;
+}
+.finish p{
+    text-align: center;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+/* RESPONSIVIDADE */
 @media (max-width: 768px) {
 
     /* TOP */
@@ -477,7 +501,7 @@ body * {
     }
 
 
-
+    /* CENTER 02 */
     .center-02 .image-01 #bouquet {
         display: none;
     }
@@ -494,9 +518,11 @@ body * {
         display: none;
     }
 
+
+    /* IMAGE + TEXT */
     .photo-01 #our-photo {
-        width: 400px;
-        height: 400px;
+        width: 350px;
+        height: 350px;
     }
 
     .photo-01 #start {
@@ -504,17 +530,55 @@ body * {
         font-size: 24px;
     }
 
+
+    /* TEXT 01 */
     .text-01 #title-02 {
-        width: 400px;
+        width: 360px;
     }
 
+
+    /* DIV VIDEO COMPLETA */
     .video-text #moment {
         font-size: 30px;
     }
 
+    .video-text #hearts-video {
+        display: none;
+
+    }
+
+    .video-text #bouquet-video {
+        display: none;
+    }
+
+
+    /* TITLE 3 (OUTRO MOMENTO)  */
+    .text-02 #title-03 {
+        margin-top: 200px;
+    }
+
+
+    /* TITLE 5  */
     .text-03 #title-05 {
         width: 400px;
     }
 
 
+    /* FOTO 02 (1 ANO DE NAMORO) */
+    .photo-02 img {
+        width: 400px;
+    }
+
+    .photo-02 p {
+        width: 400px;
+    }
+
+    /* MAIN TEXT 01 */
+    .main-text-01 #main-text-02 {
+        width: 450px;
+    }
+
+    .main-text-01 #back-text {
+        width: 463px;
+    }
 }
