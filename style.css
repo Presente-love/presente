@@ -438,7 +438,7 @@ body * {
     width: 962px;
     justify-content: center;
     align-items: center;
-    padding: 24px;
+    padding: 20px;
     margin-top: 40px;
 
     background-color: rgba(255, 255, 255, 0.753);
@@ -560,25 +560,25 @@ body * {
 
     /* TITLE 5  */
     .text-03 #title-05 {
-        width: 400px;
+        width: 360px;
     }
 
 
     /* FOTO 02 (1 ANO DE NAMORO) */
     .photo-02 img {
-        width: 400px;
+        width: 350px;
     }
 
     .photo-02 p {
-        width: 400px;
+        width: 350px;
     }
 
     /* MAIN TEXT 01 */
-    .main-text-01 #main-text-02 {
-        width: 450px;
-    }
+    /* .main-text-01 #main-text-02 {
+        width: 360px;
+    } */
 
     .main-text-01 #back-text {
-        width: 463px;
+        width: 400px;
     }
 }
