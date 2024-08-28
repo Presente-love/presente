@@ -282,6 +282,7 @@ body * {
 }
 
 .photo-01 #start {
+    border: 1px solid white;
     width: 800px;
     font-size: 40px;
     font-weight: 500;
@@ -533,7 +534,7 @@ body * {
     }
 
     .photo-01 #start {
-        width: 800px;
+        border: 1px solid white;
         font-size: 24px;
     }
 
