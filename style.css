@@ -530,7 +530,7 @@ body * {
 
     /* OLHO ESQUERDO */
     #left-eyes-02 {
-        width: 450px;
+        width: 200px;
         border: 1px solid white;
     }
 
@@ -541,6 +541,7 @@ body * {
 
     /* OLHO DIREITO */
     #right-eyes-02 {
+        width: 100vw;
         border: 1px solid white;
     }
 
