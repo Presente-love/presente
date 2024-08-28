@@ -7,7 +7,7 @@
 body {
     background: linear-gradient(to bottom, rgba(128, 0, 0, 1), rgba(180, 0, 0, 1), rgb(255, 0, 0));
     background-size: 100% 200%;
-    animation: gradient-conteiner 3s infinite alternate; 
+    animation: gradient-conteiner 3s infinite alternate;
 }
 
 /*EFECT GRADIENT*/
@@ -193,6 +193,7 @@ body * {
     font-size: 40px;
     text-align: center;
     margin: 100px auto 0;
+
 }
 
 .center-02 .image-02 {
@@ -224,6 +225,7 @@ body * {
 
     text-align: center;
     margin: 700px auto 0;
+
 }
 
 /* BALÃO */
@@ -235,8 +237,9 @@ body * {
 /* OLHO ESQUERDA */
 #left-eyes-02 {
     margin-top: 328px;
-
+    width: 100vw;
     transform: rotate(15.63deg);
+
 }
 
 /* ENTÃO */
@@ -376,6 +379,7 @@ body * {
     text-align: center;
     font-weight: 600;
     font-size: 26px;
+
 }
 
 .text-03 #title-05 {
@@ -385,6 +389,7 @@ body * {
 
     text-align: justify;
     margin-top: 30px;
+
 }
 
 /* FOTO 02 (1 ANO DE NAMORO) */
@@ -421,6 +426,7 @@ body * {
 .main-text-01 #title-main-text {
     font-size: 36px;
     text-align: center;
+
 }
 
 .main-text-01 #main-text-02 {
@@ -470,7 +476,6 @@ body * {
     .top #text-initial {
         width: 450px;
         gap: 10.5px;
-
     }
 
     /* ROLAR A PÁGINA */
@@ -486,10 +491,12 @@ body * {
     .center-01 .img-01 #bouquet {
         margin: auto;
         /* width: 200px; */
+
     }
 
     .center-01 .img-01 #hearts {
         display: none;
+
     }
 
     .center-01 .img-02 #bouquet {
@@ -499,6 +506,7 @@ body * {
     .center-01 .img-02 #hearts {
         margin: auto;
         /* width: 200px; */
+
     }
 
 
@@ -513,12 +521,17 @@ body * {
 
     .center-02 .image-02 #bouquet {
         margin: auto;
+
     }
 
     .center-02 .image-02 #hearts {
         display: none;
     }
 
+    /* OLHO ESQUERDO */
+    #left-eyes-02 {
+        width: 450px;
+    }
 
     /* ENTÃO */
     #thin p {
@@ -530,10 +543,11 @@ body * {
     .photo-01 #our-photo {
         width: 350px;
         height: 350px;
+
     }
 
     .photo-01 #start {
-        width: 100vw;
+        width: 450px;
         font-size: 24px;
     }
 
@@ -541,12 +555,14 @@ body * {
     /* TEXT 01 */
     .text-01 #title-02 {
         width: 360px;
+
     }
 
 
     /* DIV VIDEO COMPLETA */
     .video-text #moment {
-        font-size: 30px;
+        font-size: 26px;
+
     }
 
     .video-text #hearts-video {
@@ -559,9 +575,18 @@ body * {
     }
 
 
+
     /* TITLE 3 (OUTRO MOMENTO)  */
     .text-02 #title-03 {
         margin-top: 200px;
+        font-size: 30px;
+
+    }
+
+    /* TEXT 02 (FIRST MOMENT) */
+    .text-03 {
+       margin-top: 200px;
+
     }
 
 
@@ -587,5 +612,6 @@ body * {
 
     .main-text-01 #back-text {
         width: 350px;
+
     }
 }
