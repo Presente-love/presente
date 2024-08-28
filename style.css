@@ -237,9 +237,8 @@ body * {
 /* OLHO ESQUERDA */
 #left-eyes-02 {
     margin-top: 328px;
-    width: 100vw;
+    
     transform: rotate(15.63deg);
-
 }
 
 /* ENTÃO */
@@ -531,6 +530,7 @@ body * {
     /* OLHO ESQUERDO */
     #left-eyes-02 {
         width: 200px;
+        margin-left: 25px;
         border: 1px solid white;
     }
 
@@ -541,7 +541,7 @@ body * {
 
     /* OLHO DIREITO */
     #right-eyes-02 {
-        width: 100vw;
+        margin-right: 25px;
         border: 1px solid white;
     }
 
