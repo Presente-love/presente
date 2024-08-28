@@ -533,7 +533,7 @@ body * {
     }
 
     .photo-01 #start {
-        border: 1px solid white;
+        width: 100vw;
         font-size: 24px;
     }
 
