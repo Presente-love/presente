@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(to bottom, rgba(128, 0, 0, 1), rgba(180, 0, 0, 1), rgb(255, 0, 0));
+    
+    height: 100vh;
+    background-size: 200% 300%;
+    animation: gradient-conteiner 3s infinite alternate;
+    /* background: linear-gradient(to bottom, rgba(128, 0, 0, 1), rgba(180, 0, 0, 1), rgb(255, 0, 0)); */
+}
+
+/*EFECT GRADIENT*/
+@keyframes gradient-conteiner {
+    0% {
+        background-position-y: 0%;
+    }
+
+    100% {
+        background-position-y: 100%;
+    }
+}   
+
+.box{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.box #gift-box{
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+}
