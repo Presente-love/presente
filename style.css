@@ -73,6 +73,7 @@ body * {
     height: 80px;
 
     transform: rotate(-21.43deg);
+    animation: zoom 2.5s ease-in-out infinite;
 }
 
 .top #text-initial #star-right {
@@ -80,6 +81,7 @@ body * {
     height: 80px;
 
     transform: rotate(21.43deg);
+    animation: zoom 2.5s ease-in-out infinite;
 }
 
 /* ROLAR A PÁGINA */
@@ -644,5 +646,17 @@ body * {
     }
     100%{
         transform: translateY(0px);
+    }
+}
+
+@keyframes zoom {
+    0%{
+        scale: 0.9;
+    }
+    50%{
+        scale: 1.0;
+    }
+    100%{
+        scale: 0.9;
     }
 }
