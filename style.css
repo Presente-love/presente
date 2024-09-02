@@ -105,6 +105,9 @@ body * {
     font-weight: 500;
     
 }
+.scroll-page #dedo img{
+    animation: float 2s ease-in-out infinite;
+}
 
 .scroll-page #direct-eyes {
 
@@ -627,5 +630,19 @@ body * {
 
     .main-text-01 #back-text {
         width: 350px;
+    }
+}
+
+
+/* EFEITO  FLUTUANTE */
+@keyframes float {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(30px);
+    }
+    100%{
+        transform: translateY(0px);
     }
 }
