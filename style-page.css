@@ -1,0 +1,662 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to bottom, rgba(128, 0, 0, 1), rgba(180, 0, 0, 1), rgb(255, 0, 0));
+    background-size: 100% 200%;
+    animation: gradient-conteiner 3s infinite alternate;
+
+}
+
+/*EFECT GRADIENT*/
+@keyframes gradient-conteiner {
+    0% {
+        background-position-y: 0%;
+    }
+
+    100% {
+        background-position-y: 100%;
+    }
+}
+
+body * {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+
+/*TOP*/
+.top {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.top #text-initial {
+    display: flex;
+
+    width: 650px;
+    height: 140px;
+    border-radius: 1000px;
+    align-items: center;
+    justify-content: center;
+    gap: 42px;
+    align-items: center;
+    justify-content: center;
+
+    background: white;
+
+    margin-top: 40px;
+
+    -webkit-box-shadow: 8px 10px 14px 0px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 8px 10px 14px 0px rgba(0, 0, 0, 0.7);
+    box-shadow: 8px 10px 14px 0px rgba(0, 0, 0, 0.7);
+
+}
+
+.top #text-initial p {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    color: black;
+}
+
+.top #text-initial #star-left {
+    width: 80px;
+    height: 80px;
+
+    transform: rotate(-21.43deg);
+    animation: zoom 2.5s ease-in-out infinite;
+}
+
+.top #text-initial #star-right {
+    width: 80px;
+    height: 80px;
+
+    transform: rotate(21.43deg);
+    animation: zoom 2.5s ease-in-out infinite;
+}
+
+/* ROLAR A PÁGINA */
+.scroll-page {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 99.04px;
+    gap: 200px;
+    
+    
+}
+
+.scroll-page #left-eyes {
+    /* margin-right: 209.51px; */
+
+    transform: rotate(15.63deg);
+}
+
+.scroll-page p {
+    margin-left: 35px;
+    font-size: 24px;
+    font-weight: 500;
+    
+}
+.scroll-page #dedo img{
+    animation: float 2s ease-in-out infinite;
+}
+
+.scroll-page #direct-eyes {
+
+    /* margin-left: 210px; */
+
+    transform: rotate(15.63deg);
+}
+
+
+
+/* CENTER 01 */
+.center-01 .img-01 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 165px auto 0;
+    
+}
+
+.center-01 .img-01 #bouquet {
+    width: 300px;
+    transform: rotate(26.49deg);
+
+    margin: auto;
+}
+
+.center-01 .img-01 #hearts {
+    width: 300px;
+    transform: rotate(-9.98deg);
+
+    margin: auto;
+}
+
+.center-01 .img-02 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 100px;
+}
+
+.center-01 .img-02 #bouquet {
+    width: 300px;
+    transform: rotate(26.49deg);
+
+    margin: auto;
+}
+
+.center-01 .img-02 #hearts {
+    width: 300px;
+    transform: rotate(-9.98deg);
+
+    margin: auto;
+    
+}
+
+
+/* TEXT CENTER */
+#text-love-center p {
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+
+    margin: 250px auto 0;
+    
+}
+
+
+/* CENTER 02 */
+.center-02 .image-01 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 250px auto 0;
+    
+}
+
+.center-02 .image-01 #bouquet {
+    width: 300px;
+    transform: rotate(-26.49deg);
+
+    margin: auto;
+}
+
+.center-02 .image-01 #hearts {
+    width: 300px;
+    transform: rotate(26.49deg);
+
+    margin: auto;
+}
+
+.center-02 #continued {
+    font-size: 40px;
+    text-align: center;
+    margin: 100px auto 0;
+
+}
+
+.center-02 .image-02 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 100px;
+    
+}
+
+.center-02 .image-02 #bouquet {
+    width: 300px;
+    transform: rotate(-35deg);
+
+    margin: auto;
+}
+
+.center-02 .image-02 #hearts {
+    width: 300px;
+    transform: rotate(35deg);
+
+    margin: auto;
+}
+
+/* QUASE LÁ */
+.almost #almost-there {
+    font-size: 48px;
+    font-weight: 500;
+
+    text-align: center;
+    margin: 700px auto 0;
+
+}
+
+/* BALÃO */
+#baloon {
+    text-align: right;
+    margin-top: 328px;
+}
+
+/* OLHO ESQUERDA */
+#left-eyes-02 {
+    margin-top: 328px;
+    
+    transform: rotate(15.63deg);
+}
+
+/* ENTÃO */
+#thin p {
+    font-size: 100px;
+    font-weight: 500;
+    text-align: center;
+
+    margin-top: 328px;
+}
+
+/* OLHO DIREITO */
+#right-eyes-02 {
+    text-align: right;
+    margin-top: 201px;
+
+    transform: rotate(15.63deg);
+}
+
+/* IMAGE + TEXT */
+.photo-01 {
+
+    display: flex;
+    flex-direction: column;
+    /* width: 854px; */
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 300px;
+}
+
+.photo-01 #our-photo {
+    width: 500px;
+    height: 500px;
+
+    border-radius: 32px;
+    border: 2.5px solid white;
+
+    -webkit-box-shadow: 0px 2px 30px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 2px 30px 0px rgba(0, 0, 0, 1);
+    box-shadow: 0px 2px 30px 0px rgba(0, 0, 0, 1);
+
+}
+
+.photo-01 #start {
+    width: 800px;
+    font-size: 40px;
+    font-weight: 500;
+
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+/* TEXT 01 */
+.text-01 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 120px;
+
+}
+
+.text-01 #title-01 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.text-01 #title-02 {
+    width: 962px;
+    font-size: 20px;
+
+    text-align: justify;
+    margin-top: 30px;
+}
+
+/* DIV VIDEO COMPLETA */
+.video-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-text #moment {
+    font-size: 36px;
+    text-align: center;
+}
+
+.video-text #video {
+    width: 325px;
+}
+
+.video-text #hearts-video {
+    width: 280px;
+    position: absolute;
+    left: 75px;
+
+    transform: rotate(20.89deg);
+}
+
+.video-text #bouquet-video {
+    width: 280px;
+    position: absolute;
+    right: 75px;
+
+
+    transform: rotate(-19.62deg);
+}
+
+/* TITLE 03  */
+.text-02 #title-03 {
+    margin-top: 120px;
+
+    font-size: 36px;
+    font-weight: 600;
+    font-style: italic;
+    text-align: center;
+}
+
+/* TEXT 02 (FIRST MOMENT) */
+.text-03 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 120px;
+
+}
+
+.text-03 #title-04 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 26px;
+
+}
+
+.text-03 #title-05 {
+    width: 962px;
+    display: flex;
+    font-size: 20px;
+
+    text-align: justify;
+    margin-top: 30px;
+
+}
+
+/* FOTO 02 (1 ANO DE NAMORO) */
+.photo-02 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    margin-top: 200px;
+}
+
+.photo-02 img {
+    width: 480px;
+}
+
+.photo-02 p {
+    width: 480px;
+    font-weight: 600;
+    font-size: 26px;
+    text-align: center;
+}
+
+/* MAIN TEXT 01 */
+.main-text-01 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 200px;
+    
+}
+
+.main-text-01 #title-main-text {
+    font-size: 36px;
+    text-align: center;
+
+}
+
+.main-text-01 #main-text-02 {
+    width: 900px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+
+    /* margin-top: 40px; */
+}
+
+.main-text-01 #back-text {
+    display: flex;
+    width: 962px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 40px;
+
+    background-color: rgba(255, 255, 255, 0.753);
+    border-radius: 30px;
+}
+
+
+/* ULTIMO TEXTO */
+.finish {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 200px;
+    margin-bottom: 80px;
+}
+
+.finish p {
+    text-align: center;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 768px) {
+
+    /* TOP */
+    .top #text-initial {
+        width: 450px;
+        gap: 10.5px;
+    }
+
+    /* ROLAR A PÁGINA */
+    .scroll-page {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 225px;
+
+    }
+
+    /* CENTER 01 */
+    .center-01 .img-01 #bouquet {
+        margin: auto;
+        /* width: 200px; */
+
+    }
+
+    .center-01 .img-01 #hearts {
+        display: none;
+
+    }
+
+    .center-01 .img-02 #bouquet {
+        display: none;
+    }
+
+    .center-01 .img-02 #hearts {
+        margin: auto;
+        /* width: 200px; */
+
+    }
+
+
+    /* CENTER 02 */
+    .center-02 .image-01 #bouquet {
+        display: none;
+    }
+
+    .center-02 .image-01 #hearts {
+        margin: auto;
+    }
+
+    .center-02 .image-02 #bouquet {
+        margin: auto;
+
+    }
+
+    .center-02 .image-02 #hearts {
+        display: none;
+    }
+
+    /* OLHO ESQUERDO */
+    #left-eyes-02 {
+        width: 200px;
+        margin-left: 25px;
+    }
+
+    /* ENTÃO */
+    #thin p {
+        font-size: 90px;
+    }
+
+    /* OLHO DIREITO */
+    #right-eyes-02 {
+        margin-right: 25px;
+    }
+
+    /* IMAGE + TEXT */
+    .photo-01 #our-photo {
+        width: 350px;
+        height: 350px;
+
+    }
+
+    .photo-01 #start {
+        width: 450px;
+        font-size: 24px;
+    }
+
+
+    /* TEXT 01 */
+    .text-01 #title-02 {
+        width: 360px;
+
+    }
+
+
+    /* DIV VIDEO COMPLETA */
+    .video-text #moment {
+        font-size: 22px;
+    }
+
+    .video-text #hearts-video {
+        display: none;
+
+    }
+
+    .video-text #bouquet-video {
+        display: none;
+    }
+
+
+
+    /* TITLE 3 (OUTRO MOMENTO)  */
+    .text-02 #title-03 {
+        margin-top: 200px;
+        font-size: 30px;
+
+    }
+
+    /* TEXT 02 (FIRST MOMENT) */
+    .text-03 {
+        margin-top: 200px;
+
+    }
+
+
+    /* TITLE 5  */
+    .text-03 #title-05 {
+        width: 360px;
+    }
+
+
+    /* FOTO 02 (1 ANO DE NAMORO) */
+    .photo-02 img {
+        width: 350px;
+    }
+
+    .photo-02 p {
+        width: 350px;
+    }
+
+    /* MAIN TEXT 01 */
+    /* .main-text-01 #main-text-02 {
+        width: 360px;
+    } */
+
+    .main-text-01 #back-text {
+        width: 350px;
+    }
+}
+
+
+/* EFEITO  FLUTUANTE */
+@keyframes float {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(30px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+@keyframes zoom {
+    0%{
+        scale: 0.9;
+    }
+    50%{
+        scale: 1.1;
+    }
+    100%{
+        scale: 0.9;
+    }
+}
