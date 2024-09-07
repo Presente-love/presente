@@ -285,7 +285,7 @@ body * {
     justify-content: center;
     align-items: center;
 
-    margin-top: 120px;
+    margin-top: 180px;
 
 }
 
@@ -298,9 +298,15 @@ body * {
 .text-01 #title-02 {
     width: 962px;
     font-size: 20px;
-
+    font-weight: 500;
+    line-height: 27px;
+    color: black;
+    
     text-align: justify;
-    margin-top: 30px;
+    
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.753);
+    border-radius: 30px;
 }
 
 /* DIV VIDEO COMPLETA */
@@ -341,7 +347,7 @@ body * {
 
 /* TITLE 03  */
 .text-02 #title-03 {
-    margin-top: 120px;
+    margin-top: 300px;
 
     font-size: 36px;
     font-weight: 600;
@@ -357,7 +363,6 @@ body * {
     align-items: center;
 
     margin-top: 120px;
-
 }
 
 .text-03 #title-04 {
@@ -371,10 +376,14 @@ body * {
     width: 962px;
     display: flex;
     font-size: 20px;
+    line-height: 27px;
+    color: black;
 
     text-align: justify;
-    margin-top: 30px;
-
+    
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.753);
+    border-radius: 30px;
 }
 
 /* FOTO 02 (1 ANO DE NAMORO) */
@@ -418,8 +427,9 @@ body * {
 .main-text-01 #main-text-02 {
     width: 900px;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
     text-align: justify;
+    line-height: 27px;
     color: rgb(0, 0, 0);
 
     /* margin-top: 40px; */
@@ -548,7 +558,6 @@ body * {
     /* TEXT 02 (FIRST MOMENT) */
     .text-03 {
         margin-top: 200px;
-
     }
 
 
