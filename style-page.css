@@ -36,7 +36,7 @@ body * {
     text-align: center;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 .top #text-initial {
@@ -91,8 +91,8 @@ body * {
     justify-content: center;
     margin-top: 99.04px;
     gap: 200px;
-    
-    
+
+
 }
 
 .scroll-page #left-eyes {
@@ -105,9 +105,10 @@ body * {
     margin-left: 35px;
     font-size: 24px;
     font-weight: 500;
-    
+
 }
-.scroll-page #dedo img{
+
+.scroll-page #dedo img {
     animation: float 2s ease-in-out infinite;
 }
 
@@ -118,122 +119,90 @@ body * {
     transform: rotate(15.63deg);
 }
 
-
-
-/* CENTER 01 */
-.center-01 .img-01 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    margin: 165px auto 0;
-    
-}
-
-.center-01 .img-01 #bouquet {
-    width: 300px;
-    transform: rotate(26.49deg);
-
-    margin: auto;
-}
-
-.center-01 .img-01 #hearts {
-    width: 300px;
-    transform: rotate(-9.98deg);
-
-    margin: auto;
-}
-
-.center-01 .img-02 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    margin-top: 100px;
-}
-
-.center-01 .img-02 #bouquet {
-    width: 300px;
-    transform: rotate(26.49deg);
-
-    margin: auto;
-}
-
-.center-01 .img-02 #hearts {
-    width: 300px;
-    transform: rotate(-9.98deg);
-
-    margin: auto;
-    
-}
-
-
 /* TEXT CENTER */
 #text-love-center p {
     font-size: 40px;
     font-weight: 500;
     text-align: center;
 
-    margin: 250px auto 0;
-    
+    margin: 350px auto 0;
+
 }
 
+
+
+/* CENTER 01 */
+.center-01 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin: 400px auto 0;
+    gap: 250px;
+}
+.center-01 .hugs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.center-01 .hugs #hug {
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.center-01 .kisses{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.center-01 .kisses #kiss {
+    width: 270px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.center-01 p {
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+}
 
 /* CENTER 02 */
-.center-02 .image-01 {
+.center-02 {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 
-    margin: 250px auto 0;
-    
+    margin: 150px auto 0;
 }
 
-.center-02 .image-01 #bouquet {
+.center-02 .bites #bite {
     width: 300px;
-    transform: rotate(-26.49deg);
-
-    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -5px;
 }
 
-.center-02 .image-01 #hearts {
-    width: 300px;
-    transform: rotate(26.49deg);
-
-    margin: auto;
-}
-
-.center-02 #continued {
-    font-size: 40px;
+.center-02 p {
+    font-size: 26px;
+    font-weight: 600;
     text-align: center;
-    margin: 100px auto 0;
-
 }
 
-.center-02 .image-02 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
-    margin-top: 100px;
-    
-}
-
-.center-02 .image-02 #bouquet {
-    width: 300px;
-    transform: rotate(-35deg);
-
-    margin: auto;
-}
-
-.center-02 .image-02 #hearts {
-    width: 300px;
-    transform: rotate(35deg);
-
-    margin: auto;
-}
 
 /* QUASE LÁ */
+.almost #continued {
+    font-size: 40px;
+    text-align: center;
+    margin: 500px auto 0;
+}
+
 .almost #almost-there {
     font-size: 48px;
     font-weight: 500;
@@ -242,6 +211,7 @@ body * {
     margin: 700px auto 0;
 
 }
+
 
 /* BALÃO */
 #baloon {
@@ -252,7 +222,7 @@ body * {
 /* OLHO ESQUERDA */
 #left-eyes-02 {
     margin-top: 328px;
-    
+
     transform: rotate(15.63deg);
 }
 
@@ -436,7 +406,7 @@ body * {
     align-items: center;
 
     margin-top: 200px;
-    
+
 }
 
 .main-text-01 #title-main-text {
@@ -504,44 +474,16 @@ body * {
     }
 
     /* CENTER 01 */
-    .center-01 .img-01 #bouquet {
-        margin: auto;
-        /* width: 200px; */
-
-    }
-
-    .center-01 .img-01 #hearts {
-        display: none;
-
-    }
-
-    .center-01 .img-02 #bouquet {
-        display: none;
-    }
-
-    .center-01 .img-02 #hearts {
-        margin: auto;
-        /* width: 200px; */
-
+    .center-01 {
+        text-align: center;
+        flex-direction: column;
+        gap: 250px;
     }
 
 
     /* CENTER 02 */
-    .center-02 .image-01 #bouquet {
-        display: none;
-    }
-
-    .center-02 .image-01 #hearts {
-        margin: auto;
-    }
-
-    .center-02 .image-02 #bouquet {
-        margin: auto;
-
-    }
-
-    .center-02 .image-02 #hearts {
-        display: none;
+    .center-02 {
+        margin: 250px auto 0;
     }
 
     /* OLHO ESQUERDO */
@@ -638,25 +580,29 @@ body * {
 
 /* EFEITO  FLUTUANTE */
 @keyframes float {
-    0%{
+    0% {
         transform: translateY(0px);
     }
-    50%{
+
+    50% {
         transform: translateY(30px);
     }
-    100%{
+
+    100% {
         transform: translateY(0px);
     }
 }
 
 @keyframes zoom {
-    0%{
+    0% {
         scale: 0.9;
     }
-    50%{
+
+    50% {
         scale: 1.1;
     }
-    100%{
+
+    100% {
         scale: 0.9;
     }
 }
