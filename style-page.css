@@ -141,30 +141,35 @@ body * {
     margin: 400px auto 0;
     gap: 250px;
 }
-.center-01 .hugs{
+
+.center-01 .hugs {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 .center-01 .hugs #hug {
     width: 300px;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
 }
-.center-01 .kisses{
+
+.center-01 .kisses {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 .center-01 .kisses #kiss {
     width: 270px;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
 }
+
 .center-01 p {
     font-size: 26px;
     font-weight: 600;
@@ -196,32 +201,25 @@ body * {
 
 
 
-/* QUASE LÁ */
-.almost #continued {
+/* CONTINUA ROLANDO */
+.continue #continued {
     font-size: 40px;
     text-align: center;
     margin: 500px auto 0;
 }
 
-.almost #almost-there {
-    font-size: 48px;
-    font-weight: 500;
-
-    text-align: center;
-    margin: 700px auto 0;
-
-}
 
 
 /* BALÃO */
 #baloon {
     text-align: right;
     margin-top: 328px;
+    animation: float 2s ease-in-out infinite;
 }
 
 /* OLHO ESQUERDA */
 #left-eyes-02 {
-    margin-top: 328px;
+    margin-top: 500px;
 
     transform: rotate(15.63deg);
 }
@@ -232,13 +230,13 @@ body * {
     font-weight: 500;
     text-align: center;
 
-    margin-top: 328px;
+    margin-top: 450px;
 }
 
 /* OLHO DIREITO */
 #right-eyes-02 {
     text-align: right;
-    margin-top: 201px;
+    margin-top: 500px;
 
     transform: rotate(15.63deg);
 }
@@ -271,10 +269,14 @@ body * {
 .photo-01 #start {
     width: 800px;
     font-size: 40px;
-    font-weight: 500;
+    font-weight: 600;
 
-    margin-top: 40px;
+    margin-top: 30px;
     text-align: center;
+}
+
+.photo-01 #gif {
+    margin-top: 10px;
 }
 
 
@@ -296,14 +298,14 @@ body * {
 }
 
 .text-01 #title-02 {
-    width: 962px;
+    width: 80%;
     font-size: 20px;
     font-weight: 500;
     line-height: 27px;
     color: black;
-    
+
     text-align: justify;
-    
+
     padding: 10px 20px;
     background-color: rgba(255, 255, 255, 0.753);
     border-radius: 30px;
@@ -345,10 +347,18 @@ body * {
     transform: rotate(-19.62deg);
 }
 
-/* TITLE 03  */
-.text-02 #title-03 {
-    margin-top: 300px;
+/* TITLE 03  (OUTRO MOMENTO)*/
+.text-02 {
 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 450px;
+}
+
+.text-02 #title-03 {
     font-size: 36px;
     font-weight: 600;
     font-style: italic;
@@ -362,7 +372,7 @@ body * {
     justify-content: center;
     align-items: center;
 
-    margin-top: 120px;
+    margin-top: 350px;
 }
 
 .text-03 #title-04 {
@@ -373,14 +383,14 @@ body * {
 }
 
 .text-03 #title-05 {
-    width: 962px;
+    width: 80%;
     display: flex;
     font-size: 20px;
     line-height: 27px;
     color: black;
 
     text-align: justify;
-    
+
     padding: 10px 20px;
     background-color: rgba(255, 255, 255, 0.753);
     border-radius: 30px;
@@ -470,9 +480,24 @@ body * {
 
     /* TOP */
     .top #text-initial {
-        width: 450px;
-        gap: 10.5px;
+        width: 380px;
+        gap: 9.5px;
     }
+
+    .top #text-initial p {
+        font-size: 22px;
+    }
+
+    .top #text-initial #star-left {
+        width: 70px;
+        height: 70px;
+    }
+
+    .top #text-initial #star-right {
+        width: 70px;
+        height: 70px;
+    }
+
 
     /* ROLAR A PÁGINA */
     .scroll-page {
@@ -487,7 +512,6 @@ body * {
     .center-01 {
         text-align: center;
         flex-direction: column;
-        gap: 250px;
     }
 
 
@@ -504,7 +528,7 @@ body * {
 
     /* ENTÃO */
     #thin p {
-        font-size: 90px;
+        font-size: 80px;
     }
 
     /* OLHO DIREITO */
@@ -520,15 +544,19 @@ body * {
     }
 
     .photo-01 #start {
-        width: 450px;
-        font-size: 24px;
+        width: 98%;
+        font-size: 21px;
+        /* border: 1px solid white; */
     }
 
 
     /* TEXT 01 */
-    .text-01 #title-02 {
-        width: 360px;
+    .text-01 #title-01 {
+        font-size: 24px;
+    }
 
+    .text-01 #title-02 {
+        width: 90%;
     }
 
 
@@ -550,16 +578,21 @@ body * {
 
     /* TITLE 3 (OUTRO MOMENTO)  */
     .text-02 #title-03 {
-        margin-top: 200px;
-        font-size: 30px;
-
+        font-size: 26px;
     }
 
     /* TEXT 02 (FIRST MOMENT) */
     .text-03 {
         margin-top: 200px;
     }
+    .text-03 #title-04 {
+        font-size: 24px;
 
+    }
+    .text-03 #title-05 {
+        width: 90%;
+        font-size: 20px;
+    }
 
     /* TITLE 5  */
     .text-03 #title-05 {
@@ -569,7 +602,7 @@ body * {
 
     /* FOTO 02 (1 ANO DE NAMORO) */
     .photo-02 img {
-        width: 350px;
+        width: 300px;
     }
 
     .photo-02 p {
@@ -577,12 +610,13 @@ body * {
     }
 
     /* MAIN TEXT 01 */
-    /* .main-text-01 #main-text-02 {
-        width: 360px;
-    } */
-
     .main-text-01 #back-text {
-        width: 350px;
+        width: 90%;
+    }
+
+    .finish p {
+        width: 90%;
+        font-size: 26px;
     }
 }
 
