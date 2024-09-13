@@ -254,11 +254,11 @@ body * {
 }
 
 .photo-01 #our-photo {
-    width: 500px;
-    height: 500px;
+    width: 350px;
+    height: 350px;
 
     border-radius: 32px;
-    border: 2.5px solid white;
+    /* border: 2.5px solid white; */
 
     -webkit-box-shadow: 0px 2px 30px 0px rgba(0, 0, 0, 1);
     -moz-box-shadow: 0px 2px 30px 0px rgba(0, 0, 0, 1);
@@ -269,7 +269,7 @@ body * {
 .photo-01 #start {
     width: 800px;
     font-size: 40px;
-    font-weight: 600;
+    font-weight: 700;
 
     margin-top: 30px;
     text-align: center;
@@ -323,11 +323,18 @@ body * {
 
 .video-text #moment {
     font-size: 36px;
+    font-weight: 600;
     text-align: center;
 }
 
 .video-text #video {
-    width: 325px;
+    width: 300px;
+
+    border-radius: 32px;
+
+    -webkit-box-shadow: 0px 2px 30px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 2px 30px 0px rgba(0, 0, 0, 1);
+    box-shadow: 0px 2px 30px 0px rgba(0, 0, 0, 1);
 }
 
 .video-text #hearts-video {
@@ -396,21 +403,89 @@ body * {
     border-radius: 30px;
 }
 
-/* FOTO 02 (1 ANO DE NAMORO) */
+/* FOTO 03 (1º BEIJO) */
 .photo-02 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 350px;
+
+}
+ .first{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 
-    margin-top: 200px;
+ }
+.photo-02 .first img {
+    width: 350px;
+
+    border-radius: 32px;
+
+    -webkit-box-shadow: 0px 2px 30px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 2px 30px 0px rgba(0, 0, 0, 1);
+    box-shadow: 0px 2px 30px 0px rgba(0, 0, 0, 1);
 }
 
-.photo-02 img {
+.photo-02 .first p {
+    font-weight: 600;
+    font-size: 26px;
+    text-align: center;
+    margin-top: 5px;
+}
+.photo-02 .first #first-kiss{
+    font-size: 24px;
+
+    margin-top: 35px;
+}
+.photo-02 .first-photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.photo-02 .first-photo img{
+    width: 350px;
+    height: 500px;
+    border-radius: 32px;
+
+    -webkit-box-shadow: 0px 2px 30px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 2px 30px 0px rgba(0, 0, 0, 1);
+    box-shadow: 0px 2px 30px 0px rgba(0, 0, 0, 1);
+}
+
+.photo-02 .first-photo p{
     width: 480px;
+    font-weight: 600;
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 5px;
 }
 
-.photo-02 p {
+
+/* FOTO 02 (1 ANO DE NAMORO) */
+.photo-03 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    margin-top: 450px;
+}
+
+.photo-03 img {
+    width: 480px;
+
+    border-radius: 32px;
+
+    -webkit-box-shadow: 0px 2px 30px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 2px 30px 0px rgba(0, 0, 0, 1);
+    box-shadow: 0px 2px 30px 0px rgba(0, 0, 0, 1);
+}
+
+.photo-03 p {
     width: 480px;
     font-weight: 600;
     font-size: 26px;
@@ -585,27 +660,42 @@ body * {
     .text-03 {
         margin-top: 200px;
     }
+
     .text-03 #title-04 {
         font-size: 24px;
 
     }
+
     .text-03 #title-05 {
         width: 90%;
         font-size: 20px;
     }
 
-    /* TITLE 5  */
-    .text-03 #title-05 {
-        width: 360px;
+    /* FOTO 03 (1º BEIJO) */
+    .photo-02 {
+        flex-direction: column;
     }
-
-
-    /* FOTO 02 (1 ANO DE NAMORO) */
-    .photo-02 img {
+    .photo-02 .first img {
         width: 300px;
     }
 
-    .photo-02 p {
+    .photo-02 .first p {
+        width: 90%;
+    }
+    .photo-02 .first-photo{
+        margin-top: 250px;
+    }
+    .photo-02 .first-photo img{
+        width: 300px;
+        height: 400px;
+    }
+
+    /* FOTO 02 (1 ANO DE NAMORO) */
+    .photo-03 img {
+        width: 320px;
+    }
+
+    .photo-03 p {
         width: 350px;
     }
 
