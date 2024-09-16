@@ -412,14 +412,14 @@ body * {
     margin-top: 350px;
 
 }
- .first{
+ .first-kiss{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 
  }
-.photo-02 .first img {
+.photo-02 .first-kiss img {
     width: 350px;
 
     border-radius: 32px;
@@ -429,16 +429,16 @@ body * {
     box-shadow: 0px 2px 30px 0px rgba(0, 0, 0, 1);
 }
 
-.photo-02 .first p {
+.photo-02 .first-kiss p {
     font-weight: 600;
     font-size: 26px;
     text-align: center;
-    margin-top: 5px;
+    margin-bottom: 10px;
 }
-.photo-02 .first #first-kiss{
+.photo-02 .first-kiss #first{
     font-size: 24px;
 
-    margin-top: 35px;
+    margin-top: 14px;
 }
 .photo-02 .first-photo{
     display: flex;
@@ -490,6 +490,8 @@ body * {
     font-weight: 600;
     font-size: 26px;
     text-align: center;
+
+    margin-top: 10px;
 }
 
 /* MAIN TEXT 01 */
@@ -627,11 +629,12 @@ body * {
 
     /* TEXT 01 */
     .text-01 #title-01 {
+        width: 90%;
         font-size: 24px;
     }
 
     .text-01 #title-02 {
-        width: 90%;
+        width: 85%;
     }
 
 
@@ -662,12 +665,13 @@ body * {
     }
 
     .text-03 #title-04 {
+        width: 90%;
         font-size: 24px;
 
     }
 
     .text-03 #title-05 {
-        width: 90%;
+        width: 85%;
         font-size: 20px;
     }
 
@@ -675,19 +679,31 @@ body * {
     .photo-02 {
         flex-direction: column;
     }
-    .photo-02 .first img {
+    .photo-02 .first-kiss img {
         width: 300px;
     }
 
-    .photo-02 .first p {
-        width: 90%;
+    .photo-02 .first-kiss p {
+        width: 85%;
+
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .photo-02 .first-kiss #first{
+        font-size: 22px;    
     }
     .photo-02 .first-photo{
         margin-top: 250px;
     }
     .photo-02 .first-photo img{
         width: 300px;
-        height: 400px;
+        height: 440px;
+    }
+    .photo-02 .first-photo p{
+        width: 85%;
+        
+        font-size: 24px;
+        font-weight: 500;
     }
 
     /* FOTO 02 (1 ANO DE NAMORO) */
@@ -696,12 +712,20 @@ body * {
     }
 
     .photo-03 p {
-        width: 350px;
+        width: 85%;
+
+        font-size: 24px;
+        font-weight: 500;
+        
     }
 
     /* MAIN TEXT 01 */
     .main-text-01 #back-text {
-        width: 90%;
+        width: 85%;
+    }
+    .main-text-01 #title-main-text {
+        font-size: 34px;
+    
     }
 
     .finish p {
