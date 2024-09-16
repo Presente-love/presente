@@ -210,22 +210,18 @@ body * {
 
 
 /* BALÃO */
-#baloon {
+#cute-hug {
     display: flex;
     margin-top: 328px;
     justify-content: end;
     align-items: center;
     
-    animation: float 2s ease-in-out infinite;
+    /* animation: float 2s ease-in-out infinite; */
+}
+#cute-hug img{
+    width: 300px;
 }
 
-/* OLHO ESQUERDA */
-#left-eyes-02 {
-    margin-top: 500px;
-
-    transform: rotate(15.63deg);
-    animation: zoom 2.5s ease-in-out infinite;
-}
 
 /* ENTÃO */
 #thin p {
@@ -236,14 +232,6 @@ body * {
     margin-top: 450px;
 }
 
-/* OLHO DIREITO */
-#right-eyes-02 {
-    text-align: right;
-    margin-top: 500px;
-
-    transform: rotate(15.63deg);
-    animation: zoom 2.5s ease-in-out infinite;
-}
 
 /* IMAGE + TEXT */
 .photo-01 {
@@ -767,3 +755,18 @@ body * {
         scale: 0.9;
     }
 }
+
+@keyframes zoom2 {
+    0% {
+        scale: 1;
+    }
+
+    50% {
+        scale: 0.95;
+    }
+
+    100% {
+        scale: 1;
+    }
+}
+
