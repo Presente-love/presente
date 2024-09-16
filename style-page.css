@@ -95,11 +95,11 @@ body * {
 
 }
 
-.scroll-page #left-eyes {
-    /* margin-right: 209.51px; */
+/* .scroll-page #left-eyes {
+    margin-right: 209.51px; 
 
     transform: rotate(15.63deg);
-}
+} */
 
 .scroll-page p {
     margin-left: 35px;
@@ -112,12 +112,12 @@ body * {
     animation: float 2s ease-in-out infinite;
 }
 
-.scroll-page #direct-eyes {
+/* .scroll-page #direct-eyes {
 
-    /* margin-left: 210px; */
+    margin-left: 210px; 
 
     transform: rotate(15.63deg);
-}
+} */
 
 /* TEXT CENTER */
 #text-love-center p {
@@ -212,8 +212,11 @@ body * {
 
 /* BALÃO */
 #baloon {
-    text-align: right;
+    display: flex;
     margin-top: 328px;
+    justify-content: end;
+    align-items: center;
+    
     animation: float 2s ease-in-out infinite;
 }
 
@@ -222,6 +225,7 @@ body * {
     margin-top: 500px;
 
     transform: rotate(15.63deg);
+    animation: zoom 2.5s ease-in-out infinite;
 }
 
 /* ENTÃO */
@@ -239,6 +243,7 @@ body * {
     margin-top: 500px;
 
     transform: rotate(15.63deg);
+    animation: zoom 2.5s ease-in-out infinite;
 }
 
 /* IMAGE + TEXT */
@@ -528,7 +533,7 @@ body * {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    margin-top: 40px;
+    margin-top: 15px;
 
     background-color: rgba(255, 255, 255, 0.753);
     border-radius: 30px;
