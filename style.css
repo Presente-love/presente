@@ -3,12 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     background: linear-gradient(to bottom, rgba(128, 0, 0, 1), rgba(180, 0, 0, 1), rgb(255, 0, 0));
-    
+
     background-size: 100% 200%;
     animation: gradient-conteiner 3s infinite alternate;
 }
+
 /*EFECT GRADIENT*/
 @keyframes gradient-conteiner {
     0% {
@@ -18,24 +20,53 @@ body {
     100% {
         background-position-y: 100%;
     }
-}   
+}
 
 
-.box{
+
+.curious {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    /* border: 1px solid white; */
+}
+
+.curious p {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    margin-top: 200px;
+    text-align: center;
+    /* border: 1px solid white; */
+}
+
+.curious img {
+    width: 180px;
+    margin-top: -12px;
+    margin-left: -19px;
+}
+
+
+
+.box {
     display: flex;
     flex-direction: column;
     width: 100%;
     text-align: center;
     align-items: center;
     justify-content: center;
+    
+    margin-top: 520px;
 
     /* border: 1px solid white; */
 }
-.box #gift-box{
+
+.box #gift-box {
     width: 250px;
     justify-content: center;
     align-items: center;
-    margin-top: 520px;
 
     transform: translateY(0px);
     /* animation: float 2s ease-in-out infinite; */
@@ -45,36 +76,17 @@ body {
 }
 
 
-.curious{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-
-    /* border: 1px solid white; */
-}
-.curious p{
-    font-family: "Roboto", sans-serif;
-    font-size: 30px;
-    font-weight: 500;
-    color: white;
-    margin-top: 200px;
-    text-align: center;
-    /* border: 1px solid white; */
-}
-.curious img{
-    width: 180px;
-    margin-top: -12px;
-    margin-left: -19px;
-}
 
 @keyframes float {
-    0%{
+    0% {
         transform: translateY(0px);
     }
-    50%{
+
+    50% {
         transform: translateY(-30px);
     }
-    100%{
+
+    100% {
         transform: translateY(0px)
     }
 }
