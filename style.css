@@ -50,13 +50,14 @@ body {
     flex-direction: column;
     width: 100%;
 
+    /* border: 1px solid white; */
 }
 .curious p{
     font-family: "Roboto", sans-serif;
     font-size: 30px;
     font-weight: 500;
     color: white;
-    margin-top: 50px;
+    margin-top: 200px;
     text-align: center;
     /* border: 1px solid white; */
 }
