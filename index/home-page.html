@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,7 +14,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,
     300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Slabo+27px&display=swap" rel="stylesheet">
-    
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="/style/swiper-bundle.min.css">
 
     <link rel="stylesheet" href="/style/style-page.css">
     <link rel="shortcut icon" type="imagex/png" href="/image/icons/coracao.ico">
@@ -103,7 +105,7 @@
 
     <div class="text-01">
         <p id="title-01"> ESSE FOI O DIA MAIS FELIZ DA MINHA VIDAAAAAAA</p>
-        <p id="title-02">LEMBRO DE CADA DETALHE DESSE MOMENTO, LEMBRO QUE EU TAVA SENTADO NO ESTANDE DA MINHA    SALA, BEM
+        <p id="title-02">LEMBRO DE CADA DETALHE DESSE MOMENTO, LEMBRO QUE EU TAVA SENTADO NO ESTANDE DA MINHA SALA, BEM
             DE BOINHA PENSANDO NA VIDA, QUANDO OLHEI PARA O LADO EU VI VOCÊ VINDO EM MINHA DIREÇÃO E JÁ FIQUEI NERVOSO.
             AI CÊ SENTOU NO DEGRAU EMBAIXO DO QUE EU TAVA E PUXOU ASSUNTO COMIGO. QUANDO EU MENOS ESPERAVA EU SENTI TUA
             MÃO NA MINHA PERNA, AÍ CÊ COMEÇOU A PUXAR OS CABELOS DELA &#x1F979;, E NAQUELE MOMENTO JUNTO A TI, EU SENTI
@@ -139,7 +141,7 @@
         </p>
     </div>
 
-    <div class="photo-02">
+    <!-- <div class="photo-02">
 
         <div class="first-kiss">
             <p>LEMBRA DO NOSSO PRIMEIRO BEIJÃO?&#x1FAE3;&#x1FAE3;</p>
@@ -152,12 +154,90 @@
             <img src="/image/foto 05.jpg" alt="EU TE AMOOOOO">
         </div>
 
+    </div> -->
+
+    <div class="container swiper mySwiper">
+
+        <div class="slider-wrapper swiper-wrapper">
+
+            <div class="slider swiper-slide">
+                <div class="foto-juntos">
+                    <p class="texto">NOSSA PRIMEIRA FOTO JUNTINHOS</p>
+                </div>
+                <img src="/image/foto 05.jpg" alt="1º Foto juntos" class="item current-item">
+            </div>
+
+            <div class="slider swiper-slide">
+                <div class="sabia">
+                    <p class="texto-sabia">SABIA QUE...</p>
+                </div>
+            </div>
+
+            <div class="slider swiper-slide">
+                <div class="foto-sorriso">
+                    <p class="texto-sorriso">SEU SORRISO ILUMINA MEU MUNDO</p>
+                </div>
+                <img src="/image/foto 14.jpg" alt="Seu sorriso ilumina o meu mundo" class="item current-item">
+            </div>
+
+            <div class="slider swiper-slide">
+                <img src="/image/foto 15.jpg" alt="Você é minha maromber" class="item current-item">
+                <div class="foto-maromba">
+                    <p class="texto-maromba">VOCÊ É MINHA MAROMBER</p>
+                </div>
+            </div>
+
+            <div class="slider swiper-slide">
+                <img src="/image/foto 16.jpg" alt="Você é minha jogadora" class="item current-item">
+                <div class="foto-jogadora">
+                    <p class="texto-jogadora">VOCÊ É MINHA JOGADORA</p>
+                </div>
+            </div>
+
+            <div class="slider swiper-slide">
+                <div class="foto-nenem">
+                    <p class="texto-nenem">VOCÊ É MEU NENÉM</p>
+                </div>
+                <img src="/image/foto 17.jpg" alt="Você é o meu neném" class="item current-item">
+            </div>
+
+            <div class="slider swiper-slide">
+                <div class="foto-letty">
+                    <p class="texto-letty">VOCÊ É MINHA LETTY</p>
+                </div>
+                <img src="/image/foto 18.jpg" alt="Você é minha Letty e eu sou o seu Toretto" class="item current-item">
+                <div class="foto-toretto">
+                    <p class="texto-toretto">E EU SOU O SEU TORETTO</p>
+                </div>
+            </div>
+
+            <div class="slider swiper-slide">
+                <div class="foto-voce">
+                    <p class="texto-voce">VOCÊ É</p>
+                </div>
+                <img src="/image/foto 19.jpg" alt="Você é a mulhar da minha vida" class="item current-item">
+                <div class="foto-minha">
+                    <p class="texto-minha">MINHA MULHER</p>
+                </div>
+            </div>
+
+            <div class="slider swiper-slide">
+                <div class="foto-amor">
+                    <p class="texto-amor">EU TE AMOOOOOOO</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-button-next arrow-rigth"></div>
+        <div class="swiper-button-prev arrow-left"></div>
+        <div class="swiper-pagination"></div>
     </div>
 
-    <div class="photo-03">
+    <!-- <div class="photo-03">
         <img src="/image/foto 09.png" alt="EU TE AMOOOOO">
         <p>E AGORA ESTAMOS AQUI AMOR, COMPLETANDO 1 ANO DE NAMORO&#x1F979;&#x1F979;</p>
-    </div>
+    </div> -->
 
     <div class="main-text-01">
         <p id="title-main-text">AGORA UM PEQUENO TEXTINHO &#x1F601;</p>
@@ -196,6 +276,24 @@
         <P>FIM DE SEMANA TEM MAIS...&#x1F440;&#x1F440;</P>
     </div>
 
+
+    <script src="/scr/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
 </body>
 
 </html>
