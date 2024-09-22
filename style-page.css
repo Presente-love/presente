@@ -472,8 +472,8 @@ body * {
 .slider .foto-juntos{
     font-weight: 600;
     font-size: 26px;
-    -webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: black;
+    /* -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black; */
     text-align: left;
     position: absolute;
     top: 1%;
@@ -495,8 +495,8 @@ body * {
 }
 .slider .foto-sorriso{
     font-size: 26px;
-    -webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: black;
+    /* -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black; */
     text-align: center;
     position: absolute;
     top: 1%;
@@ -509,8 +509,8 @@ body * {
 .slider .foto-maromba{
     font-weight: 600;
     font-size: 24px;
-    -webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: black;
+    /* -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black; */
     text-align: right;
     position: absolute;
     top: 2%;
@@ -521,8 +521,8 @@ body * {
 .slider .foto-jogadora{
     font-weight: 600;
     font-size: 24px;
-    -webkit-text-stroke-width: 1.7px;
-    -webkit-text-stroke-color: black;
+    /* -webkit-text-stroke-width: 1.7px;
+    -webkit-text-stroke-color: black; */
     text-align: center;
     position: absolute;
     top: 80%;
@@ -533,8 +533,8 @@ body * {
 .slider .foto-nenem{
     font-weight: 600;
     font-size: 24px;
-    -webkit-text-stroke-width: 1.4px;
-    -webkit-text-stroke-color: black;
+    /* -webkit-text-stroke-width: 1.4px;
+    -webkit-text-stroke-color: black; */
     text-align: center;
     position: absolute;
     top: 2%;
@@ -547,8 +547,8 @@ body * {
 .slider .foto-letty{
     font-weight: 600;
     font-size: 24px;
-    -webkit-text-stroke-width: 1.4px;
-    -webkit-text-stroke-color: black;
+    /* -webkit-text-stroke-width: 1.4px;
+    -webkit-text-stroke-color: black; */
     text-align: center;
     position: absolute;
     top: 2%;
@@ -561,8 +561,8 @@ body * {
 .slider .foto-toretto{
     font-weight: 600;
     font-size: 24px;
-    -webkit-text-stroke-width: 1.4px;
-    -webkit-text-stroke-color: black;
+    /* -webkit-text-stroke-width: 1.4px;
+    -webkit-text-stroke-color: black; */
     text-align: center;
     position: absolute;
     top: 85%;
@@ -574,8 +574,8 @@ body * {
 .slider .foto-voce{
     font-weight: 600;
     font-size: 24px;
-    -webkit-text-stroke-width: 1.4px;
-    -webkit-text-stroke-color: black;
+    /* -webkit-text-stroke-width: 1.4px;
+    -webkit-text-stroke-color: black; */
     text-align: center;
     position: absolute;
     top: 3%;
@@ -588,11 +588,11 @@ body * {
 .slider .foto-minha{
     font-weight: 600;
     font-size: 24px;
-    -webkit-text-stroke-width: 1.4px;
-    -webkit-text-stroke-color: black;
+    /* -webkit-text-stroke-width: 1.4px;
+    -webkit-text-stroke-color: black; */
     text-align: center;
     position: absolute;
-    top: 90%;
+    top: 85%;
     left: 35%;
 }
 .slider .foto-minha .texto-minha{
