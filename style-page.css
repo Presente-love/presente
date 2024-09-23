@@ -213,16 +213,16 @@ body * {
 /* BALÃO */
 #cute-hug {
     display: flex;
+    flex-direction: column;
     margin-top: 328px;
     justify-content: end;
-    align-items: center;
-    
+    align-items: end;
+     
     /* animation: float 2s ease-in-out infinite; */
 }
 #cute-hug img{
     width: 300px;
 }
-
 
 /* ENTÃO */
 #thin p {
@@ -469,11 +469,11 @@ body * {
     flex-flow: row nowrap;
     gap: 15px;
 }
-.slider .foto-juntos{
+/* .slider .foto-juntos{
     font-weight: 600;
     font-size: 26px;
-    /* -webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: black; */
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
     text-align: left;
     position: absolute;
     top: 1%;
@@ -481,7 +481,7 @@ body * {
 }
 .slider .foto-juntos .texto{
     font-weight: 600;
-}
+} */
 .slider .sabia{
     font-weight: 600;
     font-size: 26px;
@@ -691,7 +691,7 @@ body * {
     font-size: 20px;
     font-weight: 500;
     text-align: justify;
-    line-height: 27px;
+    line-height: 30px;
     color: rgb(0, 0, 0);
 
     /* margin-top: 40px; */
