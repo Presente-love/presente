@@ -397,7 +397,7 @@ body * {
 }
 
 /* FOTO 03 (1º BEIJO) */
-/* .photo-02 {
+.photo-02 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -413,7 +413,7 @@ body * {
 
  }
 .photo-02 .first-kiss img {
-    width: 350px;
+    width: 325px;
 
     border-radius: 32px;
 
@@ -424,38 +424,15 @@ body * {
 
 .photo-02 .first-kiss p {
     font-weight: 600;
-    font-size: 26px;
+    font-size: 22px;
     text-align: center;
     margin-bottom: 10px;
 }
 .photo-02 .first-kiss #first{
-    font-size: 24px;
+    font-size: 22px;
 
     margin-top: 14px;
 }
-.photo-02 .first-photo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-.photo-02 .first-photo img{
-    width: 350px;
-    height: 500px;
-    border-radius: 32px;
-
-    -webkit-box-shadow: 0px 2px 30px 0px rgba(0, 0, 0, 1);
-    -moz-box-shadow: 0px 2px 30px 0px rgba(0, 0, 0, 1);
-    box-shadow: 0px 2px 30px 0px rgba(0, 0, 0, 1);
-}
-
-.photo-02 .first-photo p{
-    width: 480px;
-    font-weight: 600;
-    font-size: 26px;
-    text-align: center;
-    margin-bottom: 5px;
-} */
 
 .container{
     position: relative;
